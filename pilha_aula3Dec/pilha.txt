@@ -1,0 +1,27 @@
+Last in, first out
+    inserções e remoções só serão feitas no "topo" da pilha.
+
+Aplicações:
+    Análise de expressões matemáticas;
+
+inserção:
+    verificar se a pilha está cheia (qtd==MAX)
+    inserir no fim(topo) qtd
+    atualizar o qtd
+
+remoção:
+    Não é escolhido o elemento que será removido, pois só fazemos remoção no topo, sendo assim removeremos sem passar nenhum parâmetro
+    verificar se existem elementos na lista para ser removido
+    decrementar qtd em uma posição para remover o elemento do topo
+    estruturas estáticas não possuem ponteiros, o array é acessado a partir do elemento que passamos para um qtd.
+
+!pilha (pilha == nullptr)
+
+pilha dinâmica:
+    alocação dinâmica
+    verificar se a pilha foi criada corretamente
+    verificar se a pilha está vazia
+    feito isso podemos inserir ou remover elementos
+    inserirmos, removemos e exibimos somente no top
+        
+    

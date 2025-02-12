@@ -1,0 +1,35 @@
+Tipo abstrato de dados: 
+    -Main é as etapas de desenvolvimento do algoritmo,
+    -O usuário só irá ver a interface não podendo alterar nada.
+    -Uma boa técnica de programação
+    -Encapsulamento e segurança(usuário não tem acesso direto ao código)
+
+Arquivo.h: 
+    -colocar os protótipos
+    -tipo de ponteiros
+    -dados globalmente acessíveis
+
+Arquivo .cpp:
+    -os arquivos devem ter o mesmo nome(tanto .h quanto .cpp)
+    -deve-se incluir o #include "nomeTad.h" na main e no arquivo.cpp
+
+Perguntas:
+    O que é um TAD?
+    Quais as vantagens de se programar com TAD?
+
+include Guard:
+    Usar o Include Guard garante que um arquivo de cabeçalho seja processado apenas uma vez durante a compilação, mesmo que seja incluído múltiplas vezes em diferentes partes do código.
+
+    #ifndef CONTABANCARIA_H:
+        Significa "se NÃO estiver definido CONTABANCARIA_H".
+        Essa linha verifica se o identificador CONTABANCARIA_H já foi definido. Se não foi, o código dentro do #ifndef será executado.
+
+    #define CONTABANCARIA_H:
+        Caso o identificador CONTABANCARIA_H não tenha sido definido, ele é definido aqui.
+        Isso evita que o conteúdo do arquivo seja incluído novamente.
+
+    #endif:
+        Finaliza o bloco condicional iniciado por #ifndef. O código entre o #ifndef e o #endif será processado apenas uma vez, mesmo que o arquivo seja incluído várias vezes.
+
+
+

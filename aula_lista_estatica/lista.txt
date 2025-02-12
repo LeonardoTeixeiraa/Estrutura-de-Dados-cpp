@@ -1,0 +1,26 @@
+aux->prox é nulo quando ele está no ultimo elemento da lista
+aux->prox = novo_nó
+
+para percorer a lista:
+    -incializar um ponteiro aux para o ponteiro inicio
+    - aux->prox precisa ser diferente de nulo (verificação if(aux->prox != nullptr))
+    - se aux->prox for nullptr então chegamos no ultimo elemento da lista
+    -aux = aux->prox (percorre a lista por meio de uma estrutura de repetição)
+
+para inserir um elemento no incio:
+    -novo_nó ->prox =(*inicio)
+    -inicio = novo_nó
+
+para inserir um elemento no meio da lista:
+    - precisaremos de 2 ponteiros
+    -se for ordenada{
+        -verificar se aux->prox é != nullptr
+        -verificar se aux-info ->novo_nó->info
+        - definir um ponteiro anterior ao ponteiro aux (aux_anterior) - sempre fica atrás de aux
+        - antes de aux caminhar pela lista, aux_anterior receberá aux e aux irá receber aux->prox 
+        para inserir quando as verificações forem falsas
+            -aux_anterior ->novo_nó
+            -novo_nó ->prox = aux
+    }
+
+

@@ -1,0 +1,24 @@
+LISTAS:
+-Definida como uma sequência de dados de um mesmo tipo
+
+Alocação estática:
+-Espaço de memória é alocado no momento de compilação
+-Exige um número máximo de elementos da lista
+--> Lista é um vetor
+-Acesso sequencial: elementos consectivos na memória.
+
+Alocação Dinâmica: 
+-A lista cresce a medida que novos elementos são armazenados e diminui à medida que removidos
+-Acesso encadeado: cada elemento pode estar em uma área  distinta da memória
+-Para acessar um elemento necessário percorrer os antecessores
+
+Lista Dinâmica encadeada:
+-Melhor utilização de recursos de memória
+-Não precisa movimentar os elementos nas operações de inserção e remoção
+    - quando queremos inserir um elemento na lista sem ter que alterar todos os elementos para uma posição de cima utilizamos ponteiros para manipular isso.
+        - alteramos por meio do ponteiro, para onde o endereço de memória irá apontar
+
+Tipos especiais de lista:
+-Pilha: removemos e adicionamos somente do topo
+-Fila:  removemos e adicionamos somente 
+

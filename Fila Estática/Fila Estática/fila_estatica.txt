@@ -1,0 +1,13 @@
+Por ser estática a alocação de memória é contigua, ou seja, definida no momento de compilação do programa
+-tamanho fixo
+-nós são sempre inseridos sempre no final e remoção deles é somente no início.
+-FIFO(First in First out) - 
+-Acesso sequencial
+-deve-se verificar se a lista está cheia, por ter um tamanho pré-definido
+
+Aplicação:
+-Controle de fluxo em geral
+- Administração de recursos compartilhados (buffer de impressora)
+
+Como inserir e remover:
+-criar uma struct "FILA" com as variáveis int inicio, qtd, fim
